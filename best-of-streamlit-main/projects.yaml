@@ -1,0 +1,664 @@
+configuration:
+  markdown_header_file: "config/header.md"
+  markdown_footer_file: "config/footer.md"
+  min_projectrank: 0
+  min_stars: 0
+  project_new_months: 3
+  project_inactive_months: 12
+  project_dead_months: 10000
+  require_license: False
+  require_github: False
+  generate_toc: True
+  generate_legend: False
+  sort_by: star_count
+
+  # Everything here is for gallery view.
+  output_generator: markdown-gallery
+  default_image: screenshots/0_default.png
+  skip_existing_screenshots: True
+  # skip_screenshots: True
+  ignore_github_screenshot: True
+  wait_before_screenshot: 10
+  projects_per_category: 9
+  projects_per_row: 3
+  mobile_version: True
+  mobile_markdown_header_file: "config/header-mobile.md"
+  short_toc: True
+
+categories:
+  - category: ml
+    title: 🤖 General Machine Learning
+  - category: nlp
+    title: 📚 Natural Language Processing
+  - category: cv
+    title: 👁️ Computer Vision
+  - category: audio
+    title: 🎵 Audio
+  - category: sci-tech
+    title: 🔬 Science & Technology
+  - category: business
+    title: 💰 Business & Economy
+  - category: non-ml
+    title: 🚀 Non-ML Apps
+  - category: extension
+    title: 🧰 Extensions & Components
+  - category: demo
+    title: 🎈 Official Demos
+
+projects:
+  - name: Traingenerator
+    homepage: https://traingenerator.jrieke.com/
+    image: https://github.com/jrieke/traingenerator/raw/main/docs/assets/demo.gif
+    github_id: jrieke/traingenerator
+    category: ml
+    show: True
+  - name: Year on Github
+    homepage: http://gh2020.jrieke.com/
+    image: https://github.com/jrieke/year-on-github/raw/main/images/demo.gif
+    github_id: jrieke/year-on-github
+    category: non-ml
+    show: True
+  - name: Analytics
+    homepage: https://github.com/jrieke/streamlit-analytics
+    image: https://github.com/jrieke/streamlit-analytics/raw/main/images/example.png
+    github_id: jrieke/streamlit-analytics
+    category: extension
+    show: True
+  - name: Interactive COVID-19
+    homepage: https://covid19.multivacplatform.org/
+    description: Analyze the cumulative data of confirmed, deaths, and recovered cases over time
+    category: sci-tech
+    show: True
+  - name: Covid19-Scotland
+    homepage: https://github.com/heyad/covid19
+    image: https://github.com/heyad/covid19/raw/master/covid19_Scotland/figures/intro.png
+    github_id: heyad/covid19
+    category: sci-tech
+    show: True
+  - name: Picture-lytics
+    homepage: https://github.com/KimaruThagna/Picture-lytics
+    github_id: KimaruThagna/Picture-lytics
+    category: cv
+    show: True
+  - name: Covid-19 Data Explorer
+    homepage: https://covid19.cwerner.ai/
+    image: https://github.com/cwerner/covid19/raw/master/assets/screenshot.png?raw=true
+    github_id: cwerner/covid19
+    category: sci-tech
+    show: True
+  - name: Squote
+    homepage: https://github.com/cjwallace/squote
+    image: https://user-images.githubusercontent.com/6513950/67687144-bee79b80-f98f-11e9-975f-76c71207f7a0.gif
+    github_id: cjwallace/squote
+    category: nlp
+    show: True
+  - name: Headliner Demo
+    homepage: https://github.com/as-ideas/headliner-demo
+    github_id: as-ideas/headliner-demo
+    image: https://github.com/as-ideas/headliner/raw/master/figures/headline_generator.png
+    category: nlp
+    show: True
+  - name: spaCy
+    homepage: https://share.streamlit.io/ines/spacy-streamlit-demo/master/app.py
+    image: https://user-images.githubusercontent.com/13643239/85388081-f2da8700-b545-11ea-9bd4-e303d3c5763c.png
+    github_id: explosion/spacy-streamlit
+    category: extension
+    show: True
+  - name: Insight
+    homepage: https://github.com/abhimishra91/insight
+    github_id: abhimishra91/insight
+    image: https://github.com/abhimishra91/insight/raw/master/meta/streamlit-NLPfiy.gif
+    category: nlp
+    show: True
+  - name: net2net
+    homepage: https://github.com/CompVis/net2net
+    github_id: CompVis/net2net
+    category: cv
+    show: True
+  - name: FastAPI Model Serving
+    homepage: https://github.com/davidefiocco/streamlit-fastapi-model-serving
+    image: https://davidefiocco.github.io/images/2020-06-27-streamlit.png
+    github_id: davidefiocco/streamlit-fastapi-model-serving
+    category: ml
+    show: True
+  - name: Drawable Canvas
+    homepage: https://share.streamlit.io/andfanilo/streamlit-drawable-canvas-demo/master/app.py
+    image: https://github.com/andfanilo/streamlit-drawable-canvas/raw/develop/img/demo.gif
+    github_id: andfanilo/streamlit-drawable-canvas
+    category: extension
+    show: True
+  - name: E2E ML App w/ PyTorch
+    homepage: https://github.com/madewithml/e2e-ml-app-pytorch
+    github_id: madewithml/e2e-ml-app-pytorch
+    category: ml
+    show: True
+  - name: ContainDS Dashboards
+    homepage: https://github.com/ideonate/cdsdashboards
+    image: https://github.com/ideonate/cdsdashboards/raw/master/docs/_static/screenshots/AppCollage.png
+    github_id: ideonate/cdsdashboards
+    category: extension
+    show: True
+  - name: chime soundboard
+    homepage: http://chime-soundboard.herokuapp.com/
+    github_id: MaxHalford/chime
+    category: audio
+    show: True
+  - name: FarolCovid
+    homepage: https://farolcovid.coronacidades.org/
+    github_id: ImpulsoGov/farolcovid
+    category: sci-tech
+    show: True
+  - name: COCO Explorer
+    homepage: https://github.com/i008/COCO-dataset-explorer
+    image: https://github.com/i008/COCO-dataset-explorer/raw/master/static/demo1.png
+    github_id: i008/COCO-dataset-explorer
+    category: cv
+    show: True
+  - name: Torchserve Dashboard
+    homepage: https://github.com/cceyda/torchserve-dashboard
+    image: https://github.com/cceyda/torchserve-dashboard/raw/master/assets/dashboard_demo.gif
+    github_id: cceyda/torchserve-dashboard
+    category: ml
+    show: True
+  - name: Object detection app
+    homepage: https://github.com/robmarkcole/object-detection-app
+    image: https://github.com/robmarkcole/object-detection-app/raw/master/images/usage.jpg
+    github_id: robmarkcole/object-detection-app
+    category: cv
+    show: True
+  - name: Observable
+    homepage: https://streamlit-observable.herokuapp.com/
+    github_id: asg017/streamlit-observable
+    category: extension
+    show: True
+  - name: ECharts
+    homepage: https://share.streamlit.io/andfanilo/streamlit-echarts-demo/master/app.py
+    image: https://github.com/andfanilo/streamlit-echarts/raw/develop/img/demo.gif
+    github_id: andfanilo/streamlit-echarts
+    category: extension
+    show: True
+  - name: Style transfer web app
+    homepage: https://github.com/amalshaji/style-transfer
+    github_id: amalshaji/style-transfer
+    category: cv
+    show: True
+  - name: D3 Demo
+    homepage: https://github.com/andfanilo/streamlit-d3-demo
+    image: https://github.com/andfanilo/streamlit-d3-demo/raw/master/images/demo.gif
+    github_id: andfanilo/streamlit-d3-demo
+    category: extension
+    show: True
+  - name: Raylab
+    homepage: https://github.com/angelolovatto/raylab
+    image: https://camo.githubusercontent.com/cec5409c95fcb5523288931681b52e607ff466407efb27820636d031042afb05/68747470733a2f2f692e696d6775722e636f6d2f625663365743352e706e67
+    github_id: angelolovatto/raylab
+    category: ml
+    show: True
+  - name: Auto Vaidya
+    homepage: https://auto-vaidya.herokuapp.com/
+    github_id: Auto-Vaidya/auto_vaidya
+    category: sci-tech
+    show: True
+  - name: Matplotlib Configurator
+    homepage: https://github.com/dhaitz/matplotlib-style-configurator
+    github_id: dhaitz/matplotlib-style-configurator
+    category: non-ml
+    show: True
+  - name: Webapp Computer Vision
+    homepage: https://github.com/amineHY/WebApp-Computer-Vision-streamlit
+    image: https://github.com/amineHY/WebApp-Computer-Vision-streamlit/raw/master/media/preview_app.gif
+    github_id: amineHY/WebApp-Computer-Vision-streamlit
+    description: Computer Vision application in the web
+    category: cv
+    show: True
+  - name: Genetic Ancestry
+    homepage: http://ezancestry.herokuapp.com/
+    image: https://github.com/arvkevi/ezancestry/raw/master/images/ezancestry.png
+    github_id: arvkevi/ezancestry
+    category: sci-tech
+    show: True
+  - name: Indian ALPR System
+    homepage: https://github.com/udaylunawat/Automatic-License-Plate-Recognition
+    image: https://camo.githubusercontent.com/d1ead79cb4338307cff2eb72ec89ec57da5e002feb9432c8b5a4586c730c2290/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6944784d6970745976666a42714a786447792f67697068792e676966
+    github_id: udaylunawat/Automatic-License-Plate-Recognition
+    category: cv
+    show: True
+  - name: Rick & Morty Generator
+    homepage: https://share.streamlit.io/e-tony/story_generator/main/app.py
+    github_id: e-tony/Story_Generator
+    category: nlp
+    show: True
+  - name: Image Classification App
+    homepage: https://github.com/smaranjitghose/img_ai_app_boilerplate
+    github_id: smaranjitghose/img_ai_app_boilerplate
+    category: cv
+    show: True
+  - name: Gravitational Wave App
+    homepage: https://share.streamlit.io/jkanner/streamlit-dataview/app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5fe3b32bb3d503528eac8707_image.jpg
+    github_id: jkanner/streamlit-dataview
+    category: sci-tech
+    show: True
+  - name: Covid Tracking
+    homepage: https://share.streamlit.io/panditpranav/svm_covid_tracking/main/COVID_app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5fb670b335879e9b9f2e71be_covid.jpg
+    github_id: PanditPranav/SVM_COVID_tracking
+    category: sci-tech
+    show: True
+  - name: Cheat Sheet
+    homepage: https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/master/app.py
+    image: https://github.com/daniellewisDL/streamlit-cheat-sheet/raw/master/streamlit-cheat-sheet.png
+    github_id: daniellewisDL/streamlit-cheat-sheet
+    category: non-ml
+    show: True
+  - name: Face-GAN Explorer
+    homepage: https://share.streamlit.io/streamlit/demo-face-gan/
+    image: https://assets.website-files.com/5eb1d49f3ed8c28a5a54769f/5ed14fdf59392828954fa44d_5e11152b0227d05a0277ae20_gan_website_large.gif
+    github_id: streamlit/demo-face-gan
+    category: demo
+    show: True
+  - name: Uber Pickups in NYC
+    homepage: https://share.streamlit.io/streamlit/demo-uber-nyc-pickups/
+    image: https://assets.website-files.com/5eb1d49f3ed8c28a5a54769f/5ed15d215b6f4928a0997155_5e1115200227d0333277addb_uber_website_large.gif
+    github_id: streamlit/demo-uber-nyc-pickups
+    category: demo
+    show: True
+  - name: Udacity Self-driving Car
+    homepage: https://share.streamlit.io/streamlit/demo-self-driving
+    image: https://assets.website-files.com/5eb1d49f3ed8c28a5a54769f/5ed15d93ea8434e97414e47f_5e1115140227d02d6777adcb_AV_website_large.gif
+    github_id: streamlit/demo-self-driving
+    category: demo
+    show: True
+  - name: Deep Dream
+    homepage: https://github.com/streamlit/demo-deepdream
+    image: https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5ede25309928736fdf811d24_5e1115355aa398cf5ffd5c4e_deep_dream_website_large.gif
+    github_id: streamlit/demo-deepdream
+    category: demo
+    show: True
+  - name: HiPlot
+    homepage: https://facebookresearch.github.io/hiplot/tuto_streamlit.html
+    image: https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5efcfd29b5f47b2e77291252_Screen%20Recording%202020-07-01%20at%2006.08%20PM.gif
+    github_id: facebookresearch/hiplot
+    category: extension
+    show: True
+  - name: Agraph
+    homepage: https://github.com/ChrisChross/streamlit-agraph
+    image: https://github.com/ChrisChross/streamlit-agraph/raw/master/imgs/example2.png
+    github_id: ChrisChross/streamlit-agraph
+    category: extension
+    show: True
+  - name: AgGrid
+    homepage: https://share.streamlit.io/pablocfonseca/streamlit-aggrid/main/example.py
+    image: https://github.com/PablocFonseca/streamlit-aggrid/raw/main/group_selection_example.gif
+    description: AgGrid is an awesome grid for web frontend
+    github_id: PablocFonseca/streamlit-aggrid
+    category: extension
+    show: True
+  - name: Vega-Lite
+    homepage: https://github.com/domoritz/streamlit-vega-lite
+    image: https://github.com/domoritz/streamlit-vega-lite/raw/master/demo.gif
+    github_id: domoritz/streamlit-vega-lite
+    category: extension
+    show: True
+  - name: Terran Timeline
+    homepage: https://github.com/pento-group/streamlit-terran-timeline/
+    image: https://raw.githubusercontent.com/pento-group/streamlit-terran-timeline/master/resources/animation.gif
+    github_id: pento-group/streamlit-terran-timeline
+    category: extension
+    show: True
+  - name: Disqus
+    homepage: https://share.streamlit.io/okld/streamlit-disqus-demo/main/app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5fdbadc19b3ab50d39d611dc_app2.jpg
+    github_id: okld/streamlit-disqus
+    category: extension
+    show: True
+  - name: Pandas Profiling
+    homepage: https://github.com/okld/streamlit-pandas-profiling
+    image: https://raw.githubusercontent.com/okld/streamlit-pandas-profiling/master/examples/streamlit_pandas_profiling_demo.gif
+    github_id: okld/streamlit-pandas-profiling
+    category: extension
+    show: True
+  - name: Embedcode
+    homepage: https://share.streamlit.io/randyzwitch/streamlit-embedcode/examples/streamlit_app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5f033ac45f3ead8fc901f3ac_gh_gist_example.png
+    github_id: randyzwitch/streamlit-embedcode
+    category: extension
+    show: True
+  - name: Ace
+    homepage: https://share.streamlit.io/okld/streamlit-ace/demo/
+    image: https://raw.githubusercontent.com/okld/streamlit-ace/master/demo/streamlit_ace_demo.gif
+    github_id: okld/streamlit-ace
+    category: extension
+    show: True
+  - name: Discourse
+    homepage: https://share.streamlit.io/okld/streamlit-discourse-demo/main/app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5fdbadaf22a77e5914b03977_app3.jpg
+    github_id: okld/streamlit-discourse
+    category: extension
+    show: True
+  - name: Bokeh Events
+    homepage: https://github.com/ash2shukla/streamlit-bokeh-events
+    image: https://github.com/ash2shukla/streamlit-bokeh-events/raw/master/assets/plots.gif
+    github_id: ash2shukla/streamlit-bokeh-events
+    category: extension
+    show: True
+  - name: Folium
+    homepage: https://share.streamlit.io/randyzwitch/streamlit-folium/examples/streamlit_app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5f1f0d5c15373567513a6b42_streamlit_folium_example.jpg
+    github_id: randyzwitch/streamlit-folium
+    category: extension
+    show: True
+  - name: 3dmol
+    homepage: https://github.com/napoles-uach/streamlit_3dmol
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5f341f27935a5c69dd31edff_stmol_image.jpg
+    description: This project aims to provide an easy way to create a web app for interacting with molecular structures using Streamlit
+    github_id: napoles-uach/streamlit_3dmol
+    category: extension
+    show: True
+  - name: Cropper
+    homepage: https://github.com/turner-anderson/streamlit-cropper
+    image: https://github.com/turner-anderson/streamlit-cropper/raw/master/img/demo.gif
+    github_id: turner-anderson/streamlit-cropper
+    category: extension
+    show: True
+  - name: Annotated Text
+    homepage: https://github.com/tvst/st-annotated-text
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5f47a38cd2fa4ae6e089154c_annotated-text.jpg
+    github_id: tvst/st-annotated-text
+    category: extension
+    show: True
+  - name: Player
+    homepage: https://share.streamlit.io/okld/streamlit-player-demo/main/app.py
+    image: https://raw.githubusercontent.com/okld/streamlit-player-demo/main/app.png
+    github_id: okld/streamlit-player
+    category: extension
+    show: True
+  - name: Lottie
+    homepage: https://share.streamlit.io/andfanilo/streamlit-lottie-demo/master/app.py
+    image: https://assets.website-files.com/5dc3d949429c1addc4f8dac2/5ff89ebd92caec4726522fd7_Streamlit-Logo-Animation-1000100.gif
+    github_id: andfanilo/streamlit-lottie
+    category: extension
+    show: True
+  - name: EDA on Financial Dataset
+    homepage: https://github.com/bukosabino/streamlit-demo-financial-eda
+    github_id: bukosabino/streamlit-demo-financial-eda
+    category: business
+    show: True
+  - name: Whatsapp Chat Analyzer
+    homepage: https://whatsapp-chat-analyzer.herokuapp.com/
+    image: https://github.com/pcsingh/WhatsApp-Chat-Analyzer/raw/master/assets/work.gif
+    github_id: pcsingh/WhatsApp-Chat-Analyzer
+    category: non-ml
+    show: True
+  - name: Rhyme with AI
+    homepage: https://github.com/godatadriven/rhyme-with-ai
+    image: https://github.com/godatadriven/rhyme-with-ai/raw/master/screenshot.gif
+    github_id: godatadriven/rhyme-with-ai
+    category: nlp
+    show: True
+  - name: Wildfire Detection
+    homepage: https://github.com/yueureka/WildFireDetection
+    image: https://github.com/yueureka/WildFireDetection/raw/master/Pictures/App2.png
+    github_id: yueureka/WildFireDetection
+    category: cv
+    show: True
+  - name: Goodreads App
+    homepage: https://share.streamlit.io/tylerjrichards/streamlit_goodreads_app/books.py
+    github_id: tylerjrichards/streamlit_goodreads_app
+    description: Analyzing Your Goodreads Reading Habits
+    category: non-ml
+    show: True
+  - name: HTML Table Scraper
+    homepage: https://github.com/CharlyWargnier/python-html-table-scraper
+    github_id: CharlyWargnier/python-html-table-scraper
+    category: non-ml
+    show: True
+  - name: Arup Social Data
+    homepage: https://share.streamlit.io/arup-group/eviction-data/run.py
+    github_id: arup-group/social-data
+    category: non-ml
+    show: True
+  - name: Resume App
+    homepage: http://54.147.143.114:8501/
+    github_id: alphadatagamma/Streamlit-Resume-App
+    category: non-ml
+    show: True
+  - name: Plant Disease Detection
+    homepage: https://bot-beats-ml-app.herokuapp.com/
+    github_id: AmeyaUpalanchi/streamlit-tensorflow-ml-app
+    category: cv
+    show: True
+  - name: GloVe Explorer
+    homepage: https://github.com/dkajtoch/glove_streamlit
+    image: https://github.com/dkajtoch/glove_streamlit/raw/master/screenshots/streamlit_glove_001.png
+    github_id: dkajtoch/glove_streamlit
+    category: nlp
+    show: True
+  - name: Sentiment Analyzer
+    homepage: https://github.com/patidarparas13/Sentiment-Analyzer-Tool
+    image: https://github.com/patidarparas13/Sentiment-Analyzer-Tool/raw/master/image.png
+    github_id: patidarparas13/Sentiment-Analyzer-Tool
+    category: nlp
+    show: True
+  - name: 🤗 Datasets Viewer
+    homepage: https://huggingface.co/datasets/viewer/
+    github_id: huggingface/datasets
+    category: nlp
+    show: True
+  - name: Zero Shot Topic Classification
+    homepage: https://huggingface.co/zero-shot/
+    description: This demo shows how 🤗 Transformers can be used for zero-shot topic classification, the task of predicting a topic that the model has not been trained on.
+    category: nlp
+    show: True
+  - name: Face Mask Detector
+    homepage: https://github.com/virtualramblas/streamlit-face-mask-detector
+    image: https://github.com/virtualramblas/streamlit-face-mask-detector/raw/master/images/demo_image.PNG
+    github_id: virtualramblas/streamlit-face-mask-detector
+    category: cv
+    show: True
+  - name: Marketing Campaign App
+    homepage: https://github.com/Ivyw1219/Marketing_Campaign_APP
+    image: https://github.com/Ivyw1219/Marketing_Campaign_APP/raw/master/app-preview.gif
+    github_id: Ivyw1219/Marketing_Campaign_APP
+    category: business
+    show: True
+  - name: StockAnalysisApp
+    homepage: https://essential-stock-analysis.herokuapp.com/
+    github_id: antonio-catalano/StockAnalysisApp
+    category: business
+    show: True
+  - name: Time Series Forecasting
+    homepage: https://autoforecast-prophet.herokuapp.com/
+    image: https://github.com/zachrenwick/streamlit_forecasting_app/raw/master/images/screenshot2.jpg
+    github_id: zachrenwick/streamlit_forecasting_app
+    category: business
+    show: True
+  - name: Travelling Salesman
+    homepage: https://github.com/miclindahl/tsp-streamlit/
+    image: https://github.com/miclindahl/tsp-streamlit/raw/master/tsp_subtours.gif
+    github_id: miclindahl/tsp-streamlit
+    category: business
+    show: True
+  - name: Music Generation
+    homepage: https://neuralpiano.herokuapp.com/
+    github_id: Sohaib90/Music_Gen_Streamlit
+    category: audio
+    show: True
+  - name: Global cities explorer
+    homepage: https://github.com/asehmi/Data-Science-Meetup-Oxford/tree/master/GlobalCities
+    image: https://github.com/asehmi/Data-Science-Meetup-Oxford/raw/master/GCFS-streamlit.png
+    github_id: asehmi/Data-Science-Meetup-Oxford
+    category: business
+    show: True
+  - name: Liverpool Analyzer
+    homepage: https://liverpoolanalyzer.herokuapp.com/
+    github_id: saeeeeru/Last-Row
+    category: non-ml
+    show: True
+  - name: TechSEO Crawler
+    homepage: https://github.com/jroakes/tech-seo-crawler
+    image: https://raw.githubusercontent.com/jroakes/tech-seo-crawler/master/etc/images/screenshot.png
+    github_id: jroakes/tech-seo-crawler
+    category: business
+    show: True
+  - name: MQTT Camera Streamer
+    homepage: https://github.com/robmarkcole/mqtt-camera-streamer
+    image: https://github.com/robmarkcole/mqtt-camera-streamer/raw/master/docs/images/viewer_usage.png
+    github_id: robmarkcole/mqtt-camera-streamer
+    category: cv
+    show: True
+  - name: Apache JMeter
+    homepage: https://github.com/QAInsights/Streamlit-JMeter
+    image: https://github.com/QAInsights/Streamlit-JMeter/raw/master/images/About.png
+    github_id: QAInsights/Streamlit-JMeter
+    category: non-ml
+    show: True
+  - name: Board Game Exploration
+    homepage: https://bgexploration.herokuapp.com/
+    image: https://github.com/MaartenGr/boardgame/raw/master/images/streamlit_gif_large.gif
+    github_id: MaartenGr/boardgame
+    category: non-ml
+    show: True
+  - name: Containerized App
+    homepage: https://github.com/collinprather/streamlit-docker
+    image: https://github.com/collinprather/streamlit-docker/raw/master/images/app.gif
+    github_id: collinprather/streamlit-docker
+    category: non-ml
+    show: True
+  - name: Text Insights
+    homepage: https://github.com/robmarkcole/text-insights-app
+    image: https://github.com/robmarkcole/text-insights-app/raw/master/assets/usage.jpg
+    github_id: robmarkcole/text-insights-app
+    category: cv
+    show: True
+  - name: Monte Carlo for Pi
+    homepage: https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py
+    description: Using Monte Carlo to Estimate Pi
+    github_id: mesmith027/streamlit_webapps
+    category: sci-tech
+    show: True
+  - name: WebRTC
+    homepage: https://streamlit-webrtc-example.herokuapp.com/
+    image: https://aws1.discourse-cdn.com/business7/uploads/streamlit/original/2X/a/af111a7393c77cb69d7712ac8e71ca862feaeb24.gif
+    github_id: whitphx/streamlit-webrtc
+    category: extension
+    show: True
+  - name: Brain Tumor Detector
+    homepage: https://share.streamlit.io/manik456/brain_tumor_classifier/main/new_brain.py
+    image: https://aws1.discourse-cdn.com/business7/uploads/streamlit/optimized/2X/7/7403a602674d9dcfdb0cfc21b9a3f95e7e31c410_2_1380x776.png
+    description: Find out whether there is a tumor in the brain (or) not by uploading the MRI of it
+    github_id: manik456/brain_tumor_classifier
+    category: sci-tech
+    show: True
+  - name: Alph, The Sacred River
+    homepage: https://share.streamlit.io/thoppe/alph-the-sacred-river/main
+    description: Combines poems and text using CLIP from OpenAI
+    github_id: thoppe/alph-the-sacred-river
+    category: cv
+    show: True
+  - name: Finance Chart
+    homepage: https://streamlit-finance-chart.herokuapp.com/
+    image: https://raw.githubusercontent.com/paduel/streamlit_finance_chart/master/sample.gif
+    github_id: paduel/streamlit_finance_chart
+    category: business
+    show: True
+  - name: Ask Me Anything
+    homepage: https://share.streamlit.io/apugoneappu/ask_me_anything/main.py
+    image: https://github.com/apugoneappu/ask_me_anything/raw/master/assets/landing.png
+    github_id: apugoneappu/ask_me_anything
+    category: cv
+    show: True
+  - name: Help Me Read
+    homepage: https://github.com/Anku5hk/Help-Me-Read/tree/master/Streamlit-Version
+    image: https://github.com/Anku5hk/Help-Me-Read/raw/master/Streamlit-Version/screens/summarize.png
+    description: Awesome app created with Streamlit + HuggingFace to get summary, question-answer, translate to language from given input text. 
+    github_id: Anku5hk/Help-Me-Read
+    category: nlp
+    show: True
+  - name: COVID-19 in Italy
+    homepage: https://covid19-dashboard-it.appspot.com/
+    image: https://github.com/francesconazzaro/covid19-portal/raw/master/resources/covid19-hires.gif
+    description: Analyse data for COVID-19 vaccines administrations and COVID-19 infections in Italy
+    github_id: francesconazzaro/covid19-portal
+    category: sci-tech
+    show: True
+  - name: Auth0 with Next.js
+    homepage: https://github.com/asehmi/Data-Science-Meetup-Oxford/tree/master/StreamlitComponent
+    image: https://github.com/asehmi/Data-Science-Meetup-Oxford/blob/master/StreamlitComponent/doc_images/streamlitcomponent_demo.gif
+    github_id: asehmi/Data-Science-Meetup-Oxford
+    category: extension
+    show: True
+  - name: Graph App Kit
+    homepage: https://github.com/graphistry/graph-app-kit
+    image: https://user-images.githubusercontent.com/4249447/92298596-8e518600-eeff-11ea-8276-069281a4af93.png
+    github_id: graphistry/graph-app-kit
+    category: ml
+    show: True
+  - name: Galaxy Zoo
+    homepage: https://share.streamlit.io/mwalmsley/galaxy-poster/gz_decals_mike_walmsley.py
+    image: https://pbs.twimg.com/media/EugE4y_XMAMls1_?format=jpg&name=4096x4096
+    description: Search galaxies by morphology
+    github_id: mwalmsley/galaxy-poster
+    category: sci-tech
+    show: True
+  - name: Taming Transformers
+    homepage: https://github.com/CompVis/taming-transformers
+    description: Taming Transformers for High-Resolution Image Synthesis, CVPR 2021 (Oral)
+    github_id: CompVis/taming-transformers
+    category: cv
+    show: True
+  - name: Timeline
+    homepage: https://www.innerdoc.com/nlp-timeline-demo/
+    image: https://github.com/innerdoc/streamlit-timeline/raw/main/example.png
+    github_id: innerdoc/streamlit-timeline
+    category: extension
+    show: True
+  - name: TensorFlow Serving + Streamlit
+    homepage: https://github.com/alvarobartt/tensorflow-serving-streamlit
+    image: https://raw.githubusercontent.com/alvarobartt/tensorflow-serving-streamlit/master/ui-demo.gif
+    github_id: alvarobartt/tensorflow-serving-streamlit
+    category: ml
+    show: True
+  - name: Web VR Code Generator
+    homepage: https://share.streamlit.io/jojo96/webvrcodegenerator/main/ar.py
+    image: https://github.com/jojo96/WebVRCodeGenerator/raw/main/Images/LiveAppGIF.gif
+    github_id: jojo96/webvrcodegenerator
+    category: cv
+    show: True
+  - name: Material Segmentation
+    homepage: https://github.com/virtualramblas/streamlit-materials-segmentation-in-vessels
+    image: https://github.com/virtualramblas/streamlit-materials-segmentation-in-vessels/raw/main/demo-image.PNG
+    github_id: virtualramblas/streamlit-materials-segmentation-in-vessels
+    category: cv
+    show: True
+  - name: Project Code
+    homepage: https://share.streamlit.io/gagan3012/project-code-py/app.py
+    image: https://user-images.githubusercontent.com/49101362/110356042-e69e4780-804a-11eb-94c6-a47fa3cd66b3.png
+    github_id: gagan3012/project-code-py
+    category: non-ml
+    show: True
+  - name: Whatsapp Chat Analyzer
+    homepage: https://share.streamlit.io/gift-ojeabulu/whatsapchat-analyzer-app/app.py
+    image: https://github.com/judeleonard/WhatsapChat-Analyzer-App/raw/master/Demo/ezgif.com-video-to-gif.gif
+    github_id: judeleonard/WhatsapChat-Analyzer-App
+    category: non-ml
+    show: True
+  - name: MiniClip
+    homepage: https://ganpaint.io/miniclip/
+    description: A quick demo to explore text descriptions and saliency maps for Clip models
+    image: https://raw.githubusercontent.com/HendrikStrobelt/miniClip/main/assets/miniclip_teaser.jpg?token=AAHIFTT5T6SXWBJMICS2OM3AJ44CA
+    github_id: HendrikStrobelt/miniClip
+    category: cv
+    show: True
+  - name: CLIP Playground
+    homepage: https://www.clipplayground.co/
+    github_id: JaviFuentes94/clip-playground
+    category: cv
+    show: True
+  - name: Intent Example Finder
+    homepage: https://share.streamlit.io/rasahq/nlu-training-data/main
+    image: https://github.com/RasaHQ/NLU-training-data/raw/main/dashboard.png
+    github_id: RasaHQ/NLU-training-data
+    category: nlp
+    show: True
+
